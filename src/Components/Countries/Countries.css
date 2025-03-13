@@ -1,0 +1,23 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+.visited{
+    background-color: purple;
+    color: black;
+}
+
+.visited-container {
+    border: 5px solid purple;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.visited-flags img {
+    height: 30px;
+    width: 50px;
+}
